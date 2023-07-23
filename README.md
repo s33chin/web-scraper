@@ -72,7 +72,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center"><img src="images/screenshot.png" alt="img" width="900" height="600"></div>
+<div align="center"><img src="images/screenshot.png" alt="img" width="1920" height="1080"></div>
 
 
 Purpose: The web scraper is a tool designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
