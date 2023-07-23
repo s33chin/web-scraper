@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/s33chin/web-scraper">
-    <img src="images/logo.png" alt="Logo" width="330" height="230">
+    <img src="images/logo_hd.png" alt="Logo" width="430" height="230">
   </a>
 
   <h3 align="center">Web Scraper</h3>
@@ -72,7 +72,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center"><img src="https://github.com/s33chin/web-scraper/blob/main/images/Screenshot.png" alt="img" width="400" height="388"></div>
+<div align="center"><img src="https://github.com/s33chin/web-scraper/blob/main/images/Screenshot%202023-07-23%20151911.png" alt="img" width="700" height="400"></div>
 
 
 Purpose: The web scraper is a tool designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
