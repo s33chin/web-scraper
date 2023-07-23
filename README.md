@@ -72,7 +72,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center"><img src="images/screenshot.png" alt="img" width="1920" height="1080"></div>
+<div align="center"><img src="images/screenshot.jpg" alt="img" width="1400" height="788"></div>
 
 
 Purpose: The web scraper is a tool designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
@@ -95,7 +95,7 @@ Features:
 <p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node" width="80" height="60"/></a></p>
 <p align="left"><a href="https://pptr.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" width="80" height="80"/></a></p>
 <p align="left"><a href="https://www.ecma-international.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" width="180" height="60"/></a></p>
-<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="" alt="node" width="80" height="60"/></a></p>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,34 +104,43 @@ Features:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The web scraping project allows you to extract data from websites efficiently. Follow the steps below to get started
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Node.js and npm: Ensure you have Node.js (v20 or above) and npm (Node Package Manager) installed on your machine. You can check this by running the following commands in your terminal:
+* node
+  ```sh
+  node -v
+  ```
 * npm
   ```sh
   npm install npm@latest -g
   ```
 
+Chrome Browser: The project utilizes Puppeteer(v14.20), which requires Google Chrome (v103) or Chromium to be installed on your system.
+
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/s33chin/web-scraper.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
-   npm install
+   npm install puppeteer@14.2.0 @puppeteer/browsers cli-progress puppeteer-core   
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Adjust the Chrome executable path and other settings in the scrapeData     function to match your system.
+
+4. Run the script
+   ```sh
+   node indexWithPooling.js
+   ```  
+
+Note: Ensure that you have proper permissions and authorization to scrape data from the target website. Respect the website's terms of service and policies while scraping.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
