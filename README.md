@@ -72,7 +72,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center"><img src="images/Screenshot.jpg" alt="img" width="1400" height="788"></div>
+<div align="center"><img src="https://github.com/s33chin/web-scraper/blob/main/images/Screenshot.png" alt="img" width="1400" height="788"></div>
 
 
 Purpose: The web scraper is a tool designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
