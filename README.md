@@ -21,7 +21,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/s33chin/web-scraper">
-    <img src="images/logo.png" alt="Logo" width="130" height="130">
+    <img src="images/logo.png" alt="Logo" width="330" height="230">
   </a>
 
   <h3 align="center">Web Scraper</h3>
@@ -149,7 +149,7 @@ Note: Ensure that you have proper permissions and authorization to scrape data f
 <!-- USAGE EXAMPLES -->
 ## Usage
 <p align="center">
-  <video width="700" height="700 align="center" src="https://raw.githubusercontent.com/s33chin/web-scraper/main/images/Recording.mp4?token=GHSAT0AAAAAACFK2M5UF4JSMIJT52KE5KQ2ZF5UZHA" alt="demo"/>
+  <img width="700" height="400 align="center" src="https://github.com/s33chin/web-scraper/blob/main/images/Screenshot%202023-07-22%20120334.png" alt="demo"/>
 </p>
 
 
