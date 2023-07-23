@@ -72,8 +72,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<div align="center"><img src="images/screenshot.png" alt="Logo" width="1000" height="800"></div>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Purpose: The web scraper is a tool designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
 
@@ -92,9 +92,10 @@ Features:
 ### Built With
 
 
-
-<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node" width="80" height="70"/> </a></p>
-
+<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node" width="80" height="60"/></a></p>
+<p align="left"><a href="https://pptr.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" width="80" height="80"/></a></p>
+<p align="left"><a href="https://www.ecma-international.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" width="180" height="60"/></a></p>
+<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="" alt="node" width="80" height="60"/></a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,10 +139,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+<p align="center">
+  <video width="700" height="700 align="center" src="images/Recording.mp4" alt="demo"/>
+</p>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,4 +235,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: <img src="images/screenshot.png" alt="Logo" width="130" height="130">
