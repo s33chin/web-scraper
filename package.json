@@ -1,12 +1,16 @@
 {
   "name": "jswebscraper",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.3.0",
+  "description": " A web scraper for 10ksb",
+  "main": "indexWithPooling.js",
+  "repository": { 
+  "type": "git", 
+  "url": "https://github.com/s33chin/web-scraper" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "shane chin",
   "license": "ISC",
   "dependencies": {
     "@puppeteer/browsers": "^1.4.6",
