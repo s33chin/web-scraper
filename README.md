@@ -72,7 +72,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center"><img src="images/screenshot.png" alt="Logo" width="1000" height="800"></div>
+<div align="center"><img src="images/screenshot.png" alt="img" width="900" height="600"></div>
 
 
 Purpose: The web scraper is a tool designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
@@ -140,7 +140,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 <p align="center">
-  <video width="700" height="700 align="center" src="images/Recording.mp4" alt="demo"/>
+  <video width="700" height="700 align="center" src="https://raw.githubusercontent.com/s33chin/web-scraper/main/images/Recording.mp4?token=GHSAT0AAAAAACFK2M5UF4JSMIJT52KE5KQ2ZF5UZHA" alt="demo"/>
 </p>
 
 
