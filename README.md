@@ -68,7 +68,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center"><img src="https://github.com/s33chin/web-scraper/blob/main/images/Screenshot%202023-07-23%20151911.png" alt="img" width="700" height="400"></div>
+
+<div align="center">
+<img src="https://github.com/s33chin/web-scraper/blob/main/images/Screenshot%202023-07-23%20151911.png" alt="img" width="700" height="400">
+</div>
 
 
 Purpose: This web scraper tool is designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
@@ -88,7 +91,7 @@ Features:
 ### Built With
 
 
-<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node" width="80" height="60"/></a></p><p align="left"><a href="https://pptr.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" width="80" height="80"/></a></p><p align="left"><a href="https://www.ecma-international.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" width="180" height="60"/></a></p>
+<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node" width="80" height="60"/></a></p><p align="left"><a href="https://pptr.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" width="80" height="80"/></a></p><p align="left"><a href="https://www.ecma-international.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" width="180" height="60"/></a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
