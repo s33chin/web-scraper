@@ -28,11 +28,6 @@
 
   <p align="center">
     Node.js and puppeteer web scraper with auto scrolling!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    ·
   </p>
 </div>
 
@@ -74,7 +69,7 @@
 </div>
 
 
-Purpose: This web scraper tool is designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
+Purpose: This web scraper is designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
 
 Features:
 * Login and Authentication: The scraper can handle login and authentication processes, allowing access to protected areas of websites.
