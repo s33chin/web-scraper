@@ -32,11 +32,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
@@ -75,7 +71,7 @@
 <div align="center"><img src="https://github.com/s33chin/web-scraper/blob/main/images/Screenshot%202023-07-23%20151911.png" alt="img" width="700" height="400"></div>
 
 
-Purpose: The web scraper is a tool designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
+Purpose: This web scraper tool is designed to extract data from websites automatically, enabling users to gather valuable information quickly and efficiently. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis.
 
 Features:
 * Login and Authentication: The scraper can handle login and authentication processes, allowing access to protected areas of websites.
@@ -92,10 +88,7 @@ Features:
 ### Built With
 
 
-<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node" width="80" height="60"/></a></p>
-<p align="left"><a href="https://pptr.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" width="80" height="80"/></a></p>
-<p align="left"><a href="https://www.ecma-international.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" width="180" height="60"/></a></p>
-
+<p align="left"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="node" width="80" height="60"/></a></p><p align="left"><a href="https://pptr.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" width="80" height="80"/></a></p><p align="left"><a href="https://www.ecma-international.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="js" width="180" height="60"/></a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,11 +97,12 @@ Features:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The web scraping project allows you to extract data from websites efficiently. Follow the steps below to get started
+This web scraping project allows you to extract data from websites (10ksb) efficiently. Follow the steps below to get started
 
 ### Prerequisites
 
 Node.js and npm: Ensure you have Node.js (v20 or above) and npm (Node Package Manager) installed on your machine. You can check this by running the following commands in your terminal:
+
 * node
   ```sh
   node -v
@@ -166,8 +160,6 @@ Note: Ensure that you have proper permissions and authorization to scrape data f
 - [ ] User-Friendly CLI Interface
 - [ ] Support for Multiple Browsers
 
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
