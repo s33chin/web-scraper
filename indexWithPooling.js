@@ -215,8 +215,8 @@ async function scrapeData() {
 
     // Save person data to a JSON file
     const jsonData = JSON.stringify(personData, null, 2);
-    fs.writeFileSync('contact_data.json', jsonData);
-    console.log('Contact data saved to contact_data.json');
+    fs.writeFileSync('contact_data1_2.json', jsonData);
+    console.log('Contact data saved to contact_data1_2.json');
 
   } catch (error) {
     console.error('Error occurred while scraping data:', error.message);
