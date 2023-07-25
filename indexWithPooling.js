@@ -16,9 +16,9 @@ function releasePageToPool(page, pagePool) {
 }
 // Function to scroll down the page and grab xxxx number of person links
 async function scrollAndGrabLinks(page) {
-  const maxScrollAttempts = 377; // Adjust this value based on the website's behavior
+  const maxScrollAttempts = 399; // Adjust this value based on the website's behavior
   const scrollTimeout = 3000; // Adjust the waiting time based on website responsiveness
-  const maxPersonLinks = 7558;
+  const maxPersonLinks =7570;
 
   const personLinks = [];
   const multiBar = new MultiBar(
@@ -190,7 +190,9 @@ async function scrapeData() {
           const businessNameElement = document.querySelector('#viewUserProfileCompanyName');
           const jobTitleElement = document.querySelector('#viewUserProfileJobTitle');
           const industryElement = document.querySelector('#viewUserProfileIndustryField');
-
+          const websiteElement = document.querySelectorAll('.value a');
+          const thirdElement = websiteElement[2];
+          
           const name = nameElement ? nameElement.textContent.trim() : 'Not available';
           const email = emailElement ? emailElement.textContent.trim() : 'Not available';
           const phone = phoneElement ? phoneElement.textContent.trim() : 'Not available';
@@ -198,7 +200,10 @@ async function scrapeData() {
           const businessName = businessNameElement ? businessNameElement.textContent.trim() : 'Not available';
           const jobTitle = jobTitleElement ? jobTitleElement.textContent.trim() : 'Not available';
           const industry = industryElement ? industryElement.textContent.trim() : 'Not available';
-          return { name, email, phone, address, businessName, jobTitle, industry };
+          const website = thirdElement ? thirdElement.textContent.trim() : 'Not available';
+          
+
+          return { name, email, phone, website, address, businessName, jobTitle, industry, personPageUrl: window.location.href};
         });
 
         personData.push(personInfo);
