@@ -57,6 +57,38 @@ async function scrollAndGrabLinks(page) {
   return personLinks;
 }
 
+// Function to check if the user is logged in
+async function checkLoginStatus(page) {
+  // Check if the login button is present on the page
+  const loginButton = await page.$('.mat-focus-indicator');
+
+  if (!loginButton) {
+    // The login button is not present, which means the user is logged in.
+    // We can return true to indicate the user is logged in.
+    return true;
+  }
+
+  // The login button is present, which means the user is logged out.
+  // Let's log in again using the stored credentials.
+  await page.type('#mat-input-0', 'grants@cenedex.com');
+  await page.type('#mat-input-1', 'Go10sb123#');
+  await page.click('.mat-focus-indicator');
+  await page.waitForNavigation();
+
+  // Check if the login was successful by looking for a relevant element on the page
+  const loggedInElement = await page.$('.your-element-selector-for-logged-in-state');
+
+  if (loggedInElement) {
+    // Login successful. We can return true to indicate the user is logged in.
+    return true;
+  } else {
+    // Login failed. We can return false to indicate the user is still logged out.
+    return false;
+  }
+}
+
+
+
 // Function to scroll down the page and grab links after a specific href link is loaded
 async function scrollAndGrabLinksAfterHref(page, targetHref) {
   const maxScrollAttempts = 500; // Adjust this value based on the website's behavior
@@ -175,6 +207,23 @@ async function scrapeData() {
     console.timeEnd('myTimer');
     console.log('Total number of persons found:', personLinks.length); // or  linksAfterTarget
     
+    // Call the checkLoginStatus function every 5 minutes (adjust interval as needed)
+    const checkLoginInterval = setInterval(async () => {
+      const isLoggedIn = await checkLoginStatus(page);
+      if (isLoggedIn) {
+        console.log('User is still logged in.');
+      } else {
+        console.log('User is logged out. Logging back in...');
+        await page.goto('https://10ksbconnect.com/directory', { waitUntil: 'networkidle2' });
+        await page.type('#mat-input-0', 'grants@cenedex.com');
+        await page.type('#mat-input-1', 'Go10sb123#');
+        await page.click('.mat-focus-indicator');
+        await page.waitForNavigation();
+        console.log('Logged back in.');
+      }
+    }, 300000); // Check every 5 minutes (300,000 milliseconds)
+
+
     // Page pooling and data extraction
     console.time('myTimer');
     for (const personUrl of personLinks) {     // or  linksAfterTarget
