@@ -16,9 +16,9 @@ function releasePageToPool(page, pagePool) {
 }
 // Function to scroll down the page and grab xxxx number of person links
 async function scrollAndGrabLinks(page) {
-  const maxScrollAttempts = 399; // Adjust this value based on the website's behavior
+  const maxScrollAttempts = 390; // Adjust this value based on the website's behavior
   const scrollTimeout = 3000; // Adjust the waiting time based on website responsiveness
-  const maxPersonLinks =7570;
+  const maxPersonLinks =7578;
 
   const personLinks = [];
   const multiBar = new MultiBar(
