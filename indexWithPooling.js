@@ -16,7 +16,7 @@ function releasePageToPool(page, pagePool) {
 }
 // Function to scroll down the page and grab xxxx number of person links
 async function scrollAndGrabLinks(page) {
-  const maxScrollAttempts = 390; // Adjust this value based on the website's behavior
+  const maxScrollAttempts = 385; // Adjust this value based on the website's behavior
   const scrollTimeout = 3000; // Adjust the waiting time based on website responsiveness
   const maxPersonLinks =7578;
 
@@ -181,7 +181,7 @@ async function scrapeData() {
       if (!visitedUrls.has(personUrl)) {
         visitedUrls.add(personUrl);
         const personPage = await getPageFromPool(browser, pagePool);
-        await personPage.goto(personUrl, { waitUntil: 'networkidle0', timeout: 60000 });
+        await personPage.goto(personUrl, { waitUntil: 'networkidle0', timeout: 90000 });
         const personInfo = await personPage.evaluate(() => {
           const nameElement = document.querySelector('#viewUserProfileFullName');
           const emailElement = document.querySelector('#viewUserProfileEmail');
