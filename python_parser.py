@@ -55,7 +55,12 @@ def standardize_phone(phone):
     return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}"
 
 def extract_region(address):
+    """function to extract the region from an address"""
     match = re.search(r'Primary State/Region of Business Operation(.+)', address)
+    return match.group(1).strip() if match else ''
+
+def extract_graduating_site(address):
+    match = re.search(r'Graduating Site(.*?)Graduating Cohort', address)
     return match.group(1).strip() if match else ''
 
 cleaned_data = []
@@ -63,7 +68,7 @@ for record in data:
     first_name, last_name = split_name(record.get('name', ''))
     phone = standardize_phone(record.get('phone', ''))
     address = extract_region(record.get('address', ''))
-
+    graduating_site = extract_graduating_site(record.get('address', ''))
     
     email = record.get('email', '')
     website = record.get('website', '')
@@ -77,6 +82,7 @@ for record in data:
         'Last Name': last_name,
         'Phone': phone,
         'Address': address,
+        'Graduating site': graduating_site,
         'Email': email,
         'Website': website,
         'Business Name': businessName,
