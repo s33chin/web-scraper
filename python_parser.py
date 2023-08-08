@@ -54,14 +54,15 @@ def standardize_phone(phone):
     # Return in the format (XXX) XXX-XXXX
     return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}"
 
-
+def extract_region(address):
+    match = re.search(r'Primary State/Region of Business Operation(.+)', address)
+    return match.group(1).strip() if match else ''
 
 cleaned_data = []
 for record in data:
     first_name, last_name = split_name(record.get('name', ''))
     phone = standardize_phone(record.get('phone', ''))
-    address = ' '.join(re.findall(
-        r'\d+\s[A-z]+\s[A-z]+', record.get('address', '')))
+    address = extract_region(record.get('address', ''))
 
     
     email = record.get('email', '')
