@@ -91,6 +91,6 @@ for record in data:
         'Person PageURL': personPageUrl
     })
 
-# Convert to a DataFrame and write to Excel
+
 df = pd.DataFrame(cleaned_data)
 df.to_excel('cleaned_contact_data.xlsx', index=False)

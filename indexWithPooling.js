@@ -16,9 +16,9 @@ function releasePageToPool(page, pagePool) {
 }
 // Function to scroll down the page and grab xxxx number of person links
 async function scrollAndGrabLinks(page) {
-  const maxScrollAttempts = 385; // Adjust this value based on the website's behavior
+  const maxScrollAttempts = 655; // Adjust this value based on the website's behavior
   const scrollTimeout = 3000; // Adjust the waiting time based on website responsiveness
-  const maxPersonLinks =7578;
+  const maxPersonLinks =8810;
 
   const personLinks = [];
   const multiBar = new MultiBar(
@@ -146,8 +146,8 @@ async function scrapeData() {
     await page.goto('https://10ksbconnect.com/login', { waitUntil: 'networkidle2' });
 
     // Now you can scrape data from the authenticated page with Infinite Scroll
-    await page.type('#mat-input-0', 'grants@cenedex.com');
-    await page.type('#mat-input-1', 'Go10sb123#');
+    await page.type('#mat-input-0', 'enter page email');
+    await page.type('#mat-input-1', 'Enter page password');
     
     // Submit the login form
     await page.click('.mat-focus-indicator');
@@ -215,7 +215,7 @@ async function scrapeData() {
 
     // Save person data to a JSON file
     const jsonData = JSON.stringify(personData, null, 2);
-    fs.writeFileSync('contact_data1_2.json', jsonData);
+    fs.writeFileSync('contact_data1_3.json', jsonData);
     console.log('Contact data saved to contact_data1_2.json');
 
   } catch (error) {
