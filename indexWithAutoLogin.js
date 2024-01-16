@@ -70,8 +70,8 @@ async function checkLoginStatus(page) {
 
   // The login button is present, which means the user is logged out.
   // Let's log in again using the stored credentials.
-  await page.type('#mat-input-0', 'grants@cenedex.com');
-  await page.type('#mat-input-1', 'Go10sb123#');
+  await page.type('#mat-input-0', 'enter email');
+  await page.type('#mat-input-1', 'enter password');
   await page.click('.mat-focus-indicator');
   await page.waitForNavigation();
 
