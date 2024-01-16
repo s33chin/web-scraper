@@ -111,7 +111,6 @@ Chrome Browser: The project utilizes Puppeteer(v14.20), which requires Google Ch
 
 
 
-
 1. Clone the repo
    ```sh
    git clone https://github.com/s33chin/web-scraper.git
