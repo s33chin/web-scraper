@@ -146,8 +146,8 @@ async function scrapeData() {
     await page.goto('https://10ksbconnect.com/login', { waitUntil: 'networkidle2' });
 
     // Now you can scrape data from the authenticated page with Infinite Scroll
-    await page.type('#mat-input-0', 'grants@cenedex.com');
-    await page.type('#mat-input-1', 'Go10sb123#');
+    await page.type('#mat-input-0', 'xxxxxxx');
+    await page.type('#mat-input-1', 'xxxxxxxxx');
     
     // Submit the login form
     await page.click('.mat-focus-indicator');
